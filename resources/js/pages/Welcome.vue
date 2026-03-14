@@ -288,7 +288,7 @@ onUnmounted(() => {
             <h2
                 class="font-ubermove text-[15vw] font-bold tracking-tighter text-black uppercase opacity-5"
             >
-                Ambiental
+                developer
             </h2>
         </section>
 
@@ -330,7 +330,7 @@ onUnmounted(() => {
 
 @font-face {
     font-family: 'UberMove';
-    src: url('/resources/css/fonts/UberMoveMedium.otf') format('opentype'); /* Ajuste o formato se for .otf */
+    src: url('/fonts/UberMoveMedium.otf') format('opentype'); /* Ajuste o formato se for .otf */
     font-weight: 400; /* Equivalente ao 'normal' */
     font-style: normal;
     font-display: swap;
@@ -338,7 +338,7 @@ onUnmounted(() => {
 
 @font-face {
     font-family: 'UberMove';
-    src: url('/resources/css/fonts/UberMoveBold.otf') format('opentype');
+    src: url('/fonts/UberMoveBold.otf') format('opentype');
     font-weight: 700; /* Equivalente ao 'bold' */
     font-style: normal;
     font-display: swap;
