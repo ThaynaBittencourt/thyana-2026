@@ -1,8 +1,8 @@
+<!-- eslint-disable vue/block-lang -->
 <script setup>
-import { Link } from '@inertiajs/vue3';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ArrowUpRight, BotMessageSquare } from 'lucide-vue-next';
+import { ArrowUpRight } from 'lucide-vue-next';
 import { onMounted, onUnmounted, ref, nextTick } from 'vue';
 
 gsap.registerPlugin(ScrollTrigger);
